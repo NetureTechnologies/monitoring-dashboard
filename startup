@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -euo pipefail
 set -x
-URL=${URL:-http://dashy.atlantis/dashboard/db/dashy}
+URL=${URL:-https://dashy.neture.com.br/dashboard/db/dashy}
 
 export PASS=${PASS:=root}
 echo "root:$PASS" | chpasswd
